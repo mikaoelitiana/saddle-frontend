@@ -8,6 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    environment:
+      name: skynet-server
+      url: ${{ steps.deploy-skynet.outputs.resolver-skylink-url }}
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -26,7 +30,3 @@ jobs:
           registry-seed: ${{ secrets.SKYNET_REGISTRY_SEED || '' }}
         env: 
           REACT_APP_NETWORK_URL: ${{ secrets.REACT_APP_NETWORK_URL }}
-
-    environment:
-      name: skynet-server
-      url: ${{ steps.deploy-skynet.outputs.resolver-skylink-url }}

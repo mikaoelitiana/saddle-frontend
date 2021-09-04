@@ -4,14 +4,7 @@
 
 An open source UI for Saddle 🤠
 
-The UI is deployed on IPFS and accessible at
-[saddle.exchange](https://saddle.exchange/#/) or
-[saddlefinance.eth.link](https://saddlefinance.eth.link/#/).
-
-## Deploy
-
-This front-end app is deployed to Skynet on the following URL : 
-
+The UI is deployed on [ SkyNet ](https://siasky.net) and accessible at
 [https://400ajem0juau782rjgesjnkt6ccvjnffd05lpfbqnv0fuaeh9nhbto0.siasky.net/](https://400ajem0juau782rjgesjnkt6ccvjnffd05lpfbqnv0fuaeh9nhbto0.siasky.net/)
 
 ## Installation
