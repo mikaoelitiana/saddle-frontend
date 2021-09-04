@@ -19,9 +19,14 @@ jobs:
 
       - name: "Deploy to Skynet"
         uses: SkynetLabs/deploy-to-skynet-action@v2
+        id: deploy-skynet
         with:
           upload-dir: build
           github-token: ${{ secrets.GITHUB_TOKEN }}
           registry-seed: ${{ secrets.SKYNET_REGISTRY_SEED || '' }}
         env: 
           REACT_APP_NETWORK_URL: ${{ secrets.REACT_APP_NETWORK_URL }}
+
+    environment:
+      name: skynet-server
+      url: ${{ steps.deploy-skynet.outputs.resolver-skylink-url }}

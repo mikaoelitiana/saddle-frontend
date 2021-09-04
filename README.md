@@ -8,7 +8,9 @@ The UI is deployed on IPFS and accessible at
 [saddle.exchange](https://saddle.exchange/#/) or
 [saddlefinance.eth.link](https://saddlefinance.eth.link/#/).
 
-## On SkyNet
+## Deploy
+
+This front-end app is deployed to Skynet on the following URL : 
 
 [https://400ajem0juau782rjgesjnkt6ccvjnffd05lpfbqnv0fuaeh9nhbto0.siasky.net/](https://400ajem0juau782rjgesjnkt6ccvjnffd05lpfbqnv0fuaeh9nhbto0.siasky.net/)
 
